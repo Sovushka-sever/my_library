@@ -1,0 +1,8 @@
+django==3.2.7
+djangorestframework==3.12.2
+Faker==8.2.0
+factory-boy==3.2.0
+requests==2.24.0
+drf-yasg==1.20.0
+Sqlparse==0.4.2
+Jinja2==3.0.1
