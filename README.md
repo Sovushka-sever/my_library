@@ -64,6 +64,7 @@ python3 manage.py createsuperuser
     - [authors/39](http://localhost:8081/api/v1/authors/39/)
 
 ##Спецификация
+
 Более подробный функционал представлен во [спецификации](http://127.0.0.1:8000/swagger/)
 (доступно при запуске проекта)
 
