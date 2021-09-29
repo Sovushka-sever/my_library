@@ -9,7 +9,7 @@ from api.models import Book, Author
 class BooksListFilter(FilterSet):
     """
     Кастомный фильтр для BooksViewSet:
-    выбор автора
+    выбор автора.
     """
     author = ModelMultipleChoiceFilter(queryset=Author.objects.all())
 

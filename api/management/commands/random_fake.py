@@ -4,6 +4,9 @@ from api.fake_data import AuthorFactory, BookFactory
 
 
 class Command(BaseCommand):
+    """
+    Команда для заполнения базы рандомными данными.
+    """
 
     help = 'Create random data'
 

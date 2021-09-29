@@ -7,6 +7,9 @@ faker = Factory.create()
 
 
 class AuthorFactory(factory.django.DjangoModelFactory):
+    """
+    Фабрика для создания рандомных авторов книг.
+    """
     author_name = factory.LazyAttribute(lambda x: faker.first_name())
     additional_information = factory.LazyAttribute(lambda x: faker.text())
 
@@ -15,6 +18,9 @@ class AuthorFactory(factory.django.DjangoModelFactory):
 
 
 class BookFactory(factory.django.DjangoModelFactory):
+    """
+    Фабрика для создания рандомных книг.
+    """
     title = factory.LazyAttribute(lambda x: faker.sentence())
     description = factory.LazyAttribute(lambda x: faker.text())
 

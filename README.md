@@ -46,7 +46,7 @@ python3 manage.py random_fake
 - 
   - или подгрузить данные из фикстур:
 ```
-python3 manage.py loaddata fixtures.json
+python3 manage.py loaddata < fixtures.json
 ```
 - Для создания суперюзера:
 ```
